@@ -1,0 +1,21 @@
+1.EC2
+2.AutoScalling group
+name
+create a template
+3.Create a template
+give name->chooseami->instancetype(free)->Create Template
+view Template
+4.Ec2 select lauch template
+configure->select subnet
+next->next->
+group size->DC=2 & MC=4
+next->next->create as group(2vm running)
+5. autoscale->add policy
+policy type->simple scalling->IncreaseGroupSize
+->selectMetric->Ec2->auto->cpuutilization->next
+->Grater>60->Next
+6.Create new topic(add name,email)next->give alarm name
+7. 6-->select alarm and value 60 ->click on create
+----
+
+

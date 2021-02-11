@@ -1,0 +1,9 @@
+1.vpc->name->10.0.0.0/24->create vpc
+2.subnet->create->name->select create vpc->ipv-4>10.0.0.0/24->create
+3.IG->createIG->attachtovpc
+4.createRT->name->select VPC->create
+5.RT->subnetAssi->selectSubnetID
+6.RT->Routes->Editroutes->addroutes->0.0.0.0/0->select->IG
+7.SetMainTable
+9.EC2->Network->seelctVPC
+10. Auto AssignIP

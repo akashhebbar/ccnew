@@ -1,0 +1,11 @@
+mysql -h  -u -p
+
+create database bookdb;
+mysql> use bookdb;
+create table books(id int AUTO_INCREMENT primary key,bookname varchar(50),price varchar(20));
+
+
+
+
+
+
